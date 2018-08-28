@@ -2,6 +2,7 @@ def square_array(array)
   # your code here
   arr = []
   array.each do |x| 
-    arr.push(x*x)
+    x*x
+    arr.push(x)
   end
 end
